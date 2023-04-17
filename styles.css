@@ -1,0 +1,107 @@
+:root {
+  --purple: #6c63ff;
+  --light-green: #669a67;
+  --accent-color: #508551;
+  --text-color: #333;
+  --text-color-secondary: #fff;
+  --background-color: #ffffff;
+  --alt-background-color: #f2f2f2;
+}
+
+html,
+body {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+  font-family: "Sora", sans-serif;
+}
+
+.bg-primary {
+  background-color: var(--background-color) !important;
+}
+
+.bg-secondary {
+  background-color: var(--alt-background-color) !important;
+}
+
+.bg-secondary {
+  background-color: var(--light-green) !important;
+}
+
+.text-secondary {
+  color: var(--text-color-secondary) !important;
+}
+
+.text-primary {
+  color: var(--text-color) !important;
+}
+
+.btn-primary {
+  background-color: var(--accent-color); /* Change primary color */
+}
+
+.border-success {
+  border-color: var(--light-green) !important;
+}
+
+.navbar-logo {
+  max-width: 200px;
+}
+
+body {
+  margin-top: 126px;
+}
+
+.svg-bodytehnika {
+  max-height: 500px;
+}
+
+.svg-o_meni {
+  max-height: 200px;
+}
+
+.programs-svgs {
+  max-height: 150px;
+}
+
+.carousel-item {
+  height: 400px;
+}
+.carousel-item img {
+  height: 400px;
+}
+
+#massage-header {
+  background-image: url("images/pexels-karolina-grabowska-6629560.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 400px;
+}
+
+#about-header {
+  background-image: url("images/o_meni.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 500px;
+}
+
+#body-header {
+  background-image: url("images/BTskupinski3.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 500px;
+}
+
+#index-header {
+  background-image: url("images/gibanje.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 500px;
+}
