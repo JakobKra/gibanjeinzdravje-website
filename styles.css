@@ -109,3 +109,27 @@ body {
 .icons {
   font-size: 25px;
 }
+
+.instagram:link {
+  color: #e1306c;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.instagram:visited {
+  color: #c13584;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.instagram:hover {
+  color: #833ab4;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.instagram:active {
+  color: #833ab4;
+  background-color: transparent;
+  text-decoration: none;
+}
